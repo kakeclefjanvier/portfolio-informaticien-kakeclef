@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <script async src="https://googletagmanager.com/gtag/js?id+TON_ID"></script>
+
+    <script>
+        window.datalayer = window.datalayer || [];
+
+        function gtag(){
+            datalayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'TON_ID')
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez KAKE CLEF pour vos projets
+     web et Services numériques.">
+   
+    <title> Contact | KAKE CLEF </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="Index.html" class="logo">
+                <img src="Images/Logo.jpg.jpg" alt="Logo KAKE CLEF">
+            </a>
+
+            <button class="menu-btn" id="menuBtn">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li><a href="Index.html">Accueil</a>
+                </li>
+
+                
+                <li>
+                    <a href="About.html">À propos</a>
+                </li>
+
+                <li>
+                    <a href="Services.html">Services</a>
+                </li>
+
+                <li>
+                    <a href="Projets.html">Projets</a>
+                </li>
+
+                <li>
+                    <a href="Contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="hero contact-hero">
+
+            <div class="hero-content">
+
+                <p class="small-title">
+                    CONTACT
+                </p>
+
+                <h1>Parlons de votre  <span>projet</span></h1>
+
+                <p>Vous avez une idée, une question ou un projet web ? N'hésitez pas à me Contacter</p>
+
+            </div>
+
+        </section>
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <p>MES COORDONNEES</p>
+
+                    <h2>Comment me Contacter ?</h2>
+
+                </div>
+
+                <div class="contact-grid">
+
+                    <div class="contact-info">
+
+                        <div class="contact-card">
+
+                            <div class="contact-icon">
+                                📞
+                            </div>
+
+                            <div>
+
+                                <h3>Téléphone</h3>
+
+                                <p>+257 67 74 39 74</p>
+
+                                <a href="tel:+25767743974" class="contact-links">
+                                    Appeler
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="contact-card">
+
+                            <div class="contact-icon">
+                                💬
+                            </div>
+
+                            <div>
+
+                                <h3>Whatsapp</h3>
+
+                                <p>+257 67 74 39 74</p>
+
+                                <a href="https://wa.me/+25767743974" target="_blank"
+                                rel="noopener noreferrer" class="contact-links">Ecrire sur 
+                            Whatsapp</a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="contact-card">
+
+                            <div class="contact-icon">
+                                ✉️
+                            </div>
+
+                            <div>
+
+                                <h3>E-mail</h3>
+
+                                <p>pafiscovicmgy@gmail.com</p>
+
+                                <a href="mailto:pafiscovicmgy@gmail.com" class="contact-links">
+                                    Envoyer sur e-mail
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="contact-card">
+
+                            <div class="contact-icon">
+                                📍
+                            </div>
+
+                            <div>
+
+                                <h3>Localisation</h3>
+
+                                <p>Rumonge, Burundi</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="contact-form-container">
+
+                        <h3>Envoyer-moi un message</h3>
+
+                        <p>Présentez brièvement votre projet et je pourrai vous répondre</p>
+
+                        <form class="mailto:pafiscovicmgy@gmail.com" method="post" enctype="text/plain">
+
+                            <div class="form-group">
+
+                                <label for="name">Nom</label>
+
+                                <input type="text" id="name" name="Nom" placeholder="Votre nom"
+                                required>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="email">E-mail</label>
+
+                                <input type="email" id="email" name="Email" 
+                                placeholder="Votre adresse e-mail" required>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="phone">Téléphone</label>
+
+                                <input type="tel" id="phone" name="Téléphone"
+                                placeholder="+257 ...">
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="service">Service souhaité</label>
+
+                                <select name="Service" id="service">
+
+                                    <option value="">Choisir un service</option>
+
+                                    <option value="Site web">Création de site web</option>
+
+                                    <option value="Design">Design numérique</option>
+
+                                    <option value="CV">Création de CV</option>
+
+                                    <option value="Maintenance">Maintenance web</option>
+
+                                    <option value="Autre">Autre</option>
+
+                                </select>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="message">Message</label>
+
+                                <textarea name="Message" id="message" rows="6"
+                                placeholder="Décrivez votre projet ..." required></textarea>
+
+                            </div>
+
+                            <button type="submit" class="btn">
+                                Envoyer le message
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="cta">
+
+            <div class="container">
+
+                <h2>Besoin d'une réponse rapide ?</h2>
+
+                <p>Contactez-moi directement sur Whatsapp.</p>
+
+                <a href="https://wa.me/+25767743974" target="_blank"
+                rel="noopener noreferrer">Ouvrir Whatsapp</a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+
+                <h3>KAKE CLEF</h3>
+
+                <p>Création web & services numériques.</p>
+
+            </div>
+
+        </div>
+
+        <h4>Navigation</h4>
+
+         <a href="Index.html">
+                    Accueil
+                </a>
+
+                <a href="About.html">
+                    À propos
+                </a>
+
+                <a href="Services.html">
+                    Services
+                </a>
+
+                <a href="Projets.html">
+                    Projets
+                </a>
+
+                <a href="Contact.html">
+                    Contact
+                </a>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- COPYRIGHT -->
+
+        <div class="copyright">
+
+            &copy; 2026 KAKE CLEF -
+            Tous droits réservés.
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js">
+        const menuBtn=
+document.getElementById("menuBtn");
+const navLinks = 
+document.getElementById("navLinks");
+menuBtn.addEventListener("click",function () {
+navLinks.classList.toggle("active");
+});
+    </script>
+                     
+</body>
+</html>
